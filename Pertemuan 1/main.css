@@ -1,0 +1,29 @@
+table,tr,td{
+    background-color: rgb(0, 132, 255) ;
+    font-family: Verdana;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+ }
+ .h{
+    border: 8px groove rgb(11, 185, 238);
+    padding: 20px;
+ }
+ .posisi{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+ }
+ body{
+    background-image: url('backgroud.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
