@@ -1,0 +1,23 @@
+h1{
+    color:red; ;    /* memberikan warna merah pada paragraf*/
+}
+h2.subhead{
+    color: blue;
+    font-size: 36px;
+}
+#footer{
+    color: brown;
+    border: 5px solid black;
+}
+div > p {
+    color: green;
+    background: yellow;
+    padding:2px;
+}
+div h2{
+    font-size:30px;
+    text-align:center;
+}
+h3 + h4{
+    color: cyan;
+}

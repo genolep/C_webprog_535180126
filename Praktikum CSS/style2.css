@@ -1,0 +1,22 @@
+h1{
+    font-style:normal;
+    color: red;
+    text-align: left;
+}
+h2{
+    font-style: italic;
+    color: #0000ff;
+    text-align: right;
+}
+h3{
+    font-style: oblique;
+    color: rgb(255,255,0);
+    text-align: center;
+}
+span.smallcaps{
+    font-variant: small-caps;
+    color: hsl(248,53%,58%);
+}
+p.justi{
+    text-align: justify;
+}

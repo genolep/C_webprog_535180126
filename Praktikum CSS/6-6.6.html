@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <title>6</title>
+    <style>
+        .a, .b{
+            border-style: solid;
+            border-color: #000000;
+            border-width: 2px;
+        }
+        .b{
+            padding: 15px;
+        }
+        p{
+            margin-top: 40px;
+            margin-bottom: 30px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #000000;
+        }
+        em{
+            background-color: #cccccc;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        p.shadow{
+            text-shadow: 2px 2px 3px #ff0000;
+        }
+        p.none{
+            text-transform :none;
+        }
+        p.capitalize{
+            text-transform :capitalize;
+        }
+        p.uppercase{
+            text-transform :uppercase;
+        }
+        p.lowercase{
+            text-transform :lowercase;
+        }
+        p.satu{
+            letter-spacing: 30px;
+        }
+        p.dua{
+            letter-spacing: 0.5em;
+        }
+        p.tiga{
+            letter-spacing: -1px;
+        }
+        p.empat{
+            word-spacing: 30px;
+        }
+        p.lima{
+            word-spacing: 0.5em;
+        }
+        p.enam{
+            word-spacing: -1px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="a"> Paragraf tanpa padding</h1>
+    <h1 class="b"> Parangraf padding 15px</h1>
+    <p>Paragraf isi beberapa <em>kata kunci</em> yang akan menambahkan bayangan dan 
+    <em>margin</em>yang lebih besar di sekitarnya. anda melihat bahwa kiri dan kanan
+    elemen ini tersebar lebih luas daripada kata-kata lain</p>
+    <p> Setiap <em>kata kunci</em> juga memiliki <em>latar </em>yang ditetapkan untuk menggambarkan di mana 
+    tepi elemen berada dan meningkatkan efek <em>margin</em></p>
+    <p>Antara setiap<em>paragraf</em>ada juga margin atas dan bawah, meskipun hanya yang nilainya
+    paling besar yang akan menunjukkan antara paragraf karena margin vertikal yang lebih kecil runtuh
+    ke yang lebih besar.</p>
+    <p class="shadow"> text dengan properti text-shadow</p>
+    <p class="none">teks tanpa transformasi</p>
+    <p class="capitalize"> huruf pertama tiap karakter menjadi kapital</p>
+    <p class="uppercase"> seluruh teks menjadi huruf besar</p>
+    <p class="lowercase"> SELURUH TEKS INI MENJADI HURUF KECIL</p>
+    <p class="satu"> ini adalah letter spacing 30px</p>
+    <p class="dua"> pada kalimat ini menggunakan letter spacing bernilai 0.5 em</p>
+    <p class="tiga"> pada kalimat ini menggunakan letter spacing -1px</p>
+    <p class="empat"> ini adalah word spacing 30px</p>
+    <p class="lima"> pada kalimat ini menggunakan word spacing bernilai 0.5 em</p>
+    <p class="enam"> pada kalimat ini menggunakan word spacing -1px</p>
+</body>
