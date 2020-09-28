@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Java Script DataType</title>
+
+    <script>
+        function Add(id, inp1, inp2) {
+            document.getElementById(id).value = Number(inp1) + Number(inp2);
+        }
+        function Sub(id, inp1, inp2) {
+            document.getElementById(id).value = Number(inp1) - Number(inp2);
+        }
+        function multiply(id, inp1, inp2) {
+            document.getElementById(id).value = Number(inp1) * Number(inp2);
+        }
+        function division(id, inp1, inp2) {
+            document.getElementById(id).value = Number(inp1) / Number(inp2);
+        }
+    </script>
+
+</head>
+
+<body>
+
+    Input 1 <input type="text" id="input1" /> <br><br>
+    Input 2 <input type="text" id="input2" /> <br><br>
+    Hasil   <input type="text" id="result" /> 
+    <br><br><br><br>
+    <button type="button"
+        onclick='Add("result", document.getElementById("input1").value , document.getElementById("input2").value)' style="width: 100px; height: 100px;">=</button>
+    <button type="button"
+        onclick='Sub("result", document.getElementById("input1").value , document.getElementById("input2").value)' style="width: 100px; height: 100px;">-</button>
+    <button type="button"
+        onclick='multiply("result", document.getElementById("input1").value , document.getElementById("input2").value)' style="width: 100px; height: 100px;">x</button>      
+    <button type="button"
+        onclick='division("result", document.getElementById("input1").value , document.getElementById("input2").value)' style="width: 100px; height: 100px;">/</button>  
+    <br><br>
+
+</body>
+</html>
